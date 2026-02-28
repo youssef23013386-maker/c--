@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 // A. Print Recursion
@@ -186,63 +185,42 @@ int main() {
     cin >> problem;
     
     switch(problem) {
-        case 'A':
         case 'a':
-            // Problem A: Print Recursion
             problemA();
             break;
             
-        case 'B':
         case 'b':
-            // Problem B: Print from 1 to N
             problemB();
             break;
             
-        case 'C':
         case 'c':
-            // Problem C: Print from N to 1
             problemC();
             break;
             
-        case 'D':
         case 'd':
-            // Problem D: Print Digits using Recursion
             problemD();
             break;
-            
-        case 'E':
         case 'e':
-            // Problem E: Base Conversion
             problemE();
             break;
             
-        case 'F':
         case 'f':
-            // Problem F: Print Even Indices
             problemF();
             break;
             
-        case 'G':
         case 'g':
-            // Problem G: Pyramid
             problemG();
             break;
             
-        case 'H':
         case 'h':
-            // Problem H: Inverted Pyramid
             problemH();
             break;
             
-        case 'I':
         case 'i':
-            // Problem I: Count Vowels
             problemI();
             break;
             
-        case 'J':
         case 'j':
-            // Problem J: Factorial
             problemJ();
             break;
             
